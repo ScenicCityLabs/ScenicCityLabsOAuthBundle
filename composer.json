@@ -1,5 +1,5 @@
 {
-  "name": "ScenicCityLabs/OAuthBundle",
+  "name": "sceniccitylabs/oauth-bundle",
   "type": "library",
   "description": "Use OAuth for your symfony 2 projects",
   "authors": [
@@ -8,7 +8,7 @@
     }
   ],
   "dist": {
-    "url": "git@github.com:ScenicCityLabs/ScenicCityLabsOAuthBundle.git",
+    "url": "git://github.com/ScenicCityLabs/ScenicCityLabsOAuthBundle.git",
     "type": "git"
   },
     "require": {
