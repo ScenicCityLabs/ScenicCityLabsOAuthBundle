@@ -1,18 +1,27 @@
 {
   "name": "sceniccitylabs/oauth-bundle",
-  "type": "library",
+  "type": "symfony-bundle",
   "description": "Use OAuth for your symfony 2 projects",
+  "keywords": ["oauth"],
+  "homepage": "https://github.com/ScenicCityLabs/ScenicCityLabsOAuthBundle",
+  "license": "MIT",
   "authors": [
     {
-      "name": "Joshua Estes"
+      "name": "Scenic City Labs"
     }
   ],
   "dist": {
     "url": "git://github.com/ScenicCityLabs/ScenicCityLabsOAuthBundle.git",
     "type": "git"
   },
-    "require": {
-        "php": ">=5.3.2",
-        "symfony/symfony": "2.1.*"
+  "require": {
+    "php": ">=5.3.2",
+    "symfony/symfony": "2.1.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "ScenicCityLabs\\OAuthBundle": ""
     }
+  },
+  "target-dir": "ScenicCityLabs/OAuthBundle"
 }
