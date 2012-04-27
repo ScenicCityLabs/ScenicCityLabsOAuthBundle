@@ -11,6 +11,7 @@ namespace ScenicCityLabs\OAuthBundle\OAuthSignatureMethod\HMAC;
  */
 
 use ScenicCityLabs\OAuthBundle\OAuthSignatureMethod;
+use ScenicCityLabs\OAuthBundle\OAuthUtil;
 
 /**
  * The HMAC-SHA1 signature method uses the HMAC-SHA1 signature algorithm as defined in [RFC2104]

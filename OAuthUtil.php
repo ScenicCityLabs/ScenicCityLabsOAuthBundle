@@ -10,7 +10,7 @@ namespace ScenicCityLabs\OAuthBundle;
  * @subpackage
  * @version
  */
-use ScenicCityLabs\OAuthBundle\OAuthUtil;
+//use ScenicCityLabs\OAuthBundle\OAuthUtil;
 
 class OAuthUtil
 {
@@ -19,7 +19,7 @@ class OAuthUtil
   {
     if (is_array($input))
     {
-      return array_map(array('OAuthUtil', 'urlencode_rfc3986'), $input);
+      return array_map(array('ScenicCityLabs\OAuthBundle\OAuthUtil', 'urlencode_rfc3986'), $input);
     }
     else if (is_scalar($input))
     {
